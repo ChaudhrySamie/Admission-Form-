@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(218, 213, 213)!important;
+}
+
+main {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.intropage label{
+    color: white;
+    font-size: larger;
+    
+    
+}
+@media screen and (max-width: 747px) {
+    .intropage label{
+      font-size: medium;
+      font-weight: normal;
+    }
+  }
+iframe{
+    height: 400px;
+}
+@media screen and (max-width: 747px) {
+    .iframesset iframe{
+      height: 200px !important;
+      width: 70%;
+      display: block;
+      padding-top: 6px;
+      margin: auto ;
+    }
+  }
+@media screen and (max-width: 747px) {
+    .iframesset{
+      text-align: center;
+    }
+  }
+.intropage input{
+       border-radius: 6px; 
+       padding: 6px;  
+}
+.intropage select{
+    border-radius: 6px; 
+    padding: 6px;  
+}
+
+
+h2 {
+    padding: 20px;
+}
+
+
+
+textarea{
+    font-size: larger;
+    color: #333;
+    border: 2px solid rgb(155, 218, 255);
+}
+
+video {
+    padding: 10px;
+}
+
+img {
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+footer a:hover{
+    cursor: pointer;
+    background-color:rgb(85, 78, 78) ;
+    }
+.intropage{
+    background-color: rgb(17, 124, 143);
+    width: fit-content;
+    margin: 10px auto;
+    margin-top: 30px;
+    padding: 10px 200px 10px 200px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+@media screen and (max-width: 747px) {
+    .intropage {
+        padding: 10px 100px 10px 100px;
+    }
+  }
+  @media screen and (max-width: 431px) {
+    .intropage {
+        padding: 10px 50px 10px 50px;
+
+    }
+  }
+.submit{
+    background-color: #68BB59;
+    color: white;
+    border: none;
+    font-size: medium;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #41a82f;
+}
+.reset{
+    background-color:  #ff6057;
+    color:white;
+    border: none;
+    font-size: medium;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: #eb3f35;
+}
+.req{
+    color: whitesmoke;
+    margin-left:-90px;
+}
+.tablestyle thead{
+   background-color:rgb(17, 124, 143) ; 
+    color:  whitesmoke;
+}
+table{
+    border: 1px solid  rgb(17, 124, 143);
+}
+strong{
+    font-size: large;
+}
+thead tr{
+    font-size: larger;
+}
+.tablestyle{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:   rgb(17, 124, 143);
+    
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.para{
+    color: white;
+    font-weight: 400;
+    margin-left: 380px;
+    margin-right: 380px;
+    padding: 20px 10px 20px 10px ;
+    border-radius: 6px;
+    background-color:  rgb(17, 124, 143); 
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.block {
+    width: 135px;
+    padding: 10px;
+    margin: 6px;
+    display: inline-block;
+    
+}
+.ageform input[type="text"]{
+    background-color: #ffffff;
+    width: 140px;
+    margin: auto;
+    min-height:10px;
+    padding: 12px;
+    border-radius: 2px;
+    border: 2px solid  rgb(17, 124, 143);
+}
+.paraheading{
+           color: rgb(3, 127, 158);
+            margin-left: -390px;
+            text-decoration: underline;
+}
+
+nav a:hover{
+  cursor: pointer;
+  background-color:rgb(85, 78, 78) ;
+  }
+.topform{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 747px) {
+    .topform {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 747px) {
+    .topform h4{
+      font-size: small;
+    }
+  }
+  @media screen and (max-width: 747px) {
+    .topform img {
+      width: 200px;
+    }
+  }
+  @media screen and (max-width: 747px) {
+    .iframe {
+      width: 20%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 747px) {
+    footer a {
+      font-size: small;
+    }
+  }
